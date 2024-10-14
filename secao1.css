@@ -17,6 +17,9 @@
     height: auto;
 
     margin-top: 90px;
+
+    position: relative;
+    z-index: 1;
 }
 
 .secao1-texto {
