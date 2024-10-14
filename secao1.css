@@ -120,10 +120,6 @@
         width: 600px;
         text-align: center
     }
-
-    .secao2-triangulo-topo {
-        display: none;
-    }
 }
 
 @media (max-width: 670px) {
@@ -171,9 +167,5 @@
         color: #fff;
         font-size: 16px;
         font-weight: 700;
-    }
-
-    .secao2-triangulo-topo {
-        display: none;
     }
 }
