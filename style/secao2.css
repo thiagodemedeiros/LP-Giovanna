@@ -12,6 +12,10 @@
     z-index: 2;
 }
 
+.secao2-triangulo-topo {
+    margin-top: -1px;
+}
+
 .secao2-conteudo {
     display: flex;
     flex-direction: column;

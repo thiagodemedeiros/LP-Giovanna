@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Impede a rolagem lateral */
+    margin: 0;
+    padding: 0;
+}
+
 @media (max-width: 1200px) {
     .secao2-triangulo-topo {
         display: none;
