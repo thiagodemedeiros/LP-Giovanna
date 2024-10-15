@@ -12,7 +12,7 @@
 .slide-track {
     display: flex;
     width: calc(829px * 10);
-    /* animation: scroll 60s linear infinite; */
+    animation: scroll 60s linear infinite;
 }
 
 .slide-track-2 {

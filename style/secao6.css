@@ -139,8 +139,12 @@
 }
 
 @media (max-width: 1200px) {
-    .secao6-triangulo-topo{
+    .secao6-triangulo-topo img{
         display: none;
+    }
+
+    .secao6-triangulo-topo {
+        margin-bottom: 50px;
     }
 }
 
