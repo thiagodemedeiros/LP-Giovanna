@@ -211,6 +211,14 @@
 }
 
 @media (max-width: 1250px) {
+    .secao8-container-bloco-direito {
+        display: none;
+    }
+
+    .secao8-container-bloco-esquerdo {
+        display: none;
+    }
+
     .secao8 {
         width: 100%;
         height: auto;
@@ -229,7 +237,7 @@
         margin-bottom: 90px;
     }
 
-    .secao8-container-bloco-esquerdo {
+    .secao8-container-bloco-esquerdo-mobile {
         width: 450px;
         height: 420px;
         padding-bottom: 10px;
@@ -243,13 +251,12 @@
         text-align: center;
         gap: 30px;
     
-        position: relative;
         margin-top: 0px;
         margin-right: 0px;
         margin-bottom: 50px;
     }
 
-    .secao8-container-bloco-direito {
+    .secao8-container-bloco-direito-mobile {
         width: 600px;
         height: 860px;
         padding-bottom: 10px;
@@ -262,8 +269,6 @@
         justify-content: center;
         text-align: center;
         gap: 30px;
-    
-        position: relative;
         margin-top: 0px;
         margin-right: 0px;
     }
@@ -342,7 +347,7 @@
         width: 280px;
     }
 
-    .secao8-container-bloco-esquerdo {
+    .secao8-container-bloco-esquerdo-mobile {
         width: 300px;
         height: 390px;
         padding-bottom: 10px;
@@ -351,46 +356,46 @@
         margin-bottom: 30px;
     }
     
-    .secao8-container-bloco-esquerdo h1 {
+    .secao8-container-bloco-esquerdo-mobile h1 {
         width: 300px;
         font-size: 28px;
     }
     
-    .secao8-container-bloco-esquerdo h3 {
+    .secao8-container-bloco-esquerdo-mobile h3 {
         width: 240px;
         font-size: 20px;
     }
     
-    .secao8-container-bloco-esquerdo p {
+    .secao8-container-bloco-esquerdo-mobile p {
         font-weight: 300;
         font-size: 18px;
         width: 240px;
     }
 
-    .secao8-container-bloco-direito {
+    .secao8-container-bloco-direito-mobile {
         width: 300px;
         height: 740px;
         padding-bottom: 10px;
         border-radius: 25px;
     }
 
-    .secao8-container-bloco-direito-texto-item {
+    .secao8-container-bloco-direito-texto-item-mobile {
         width: 280px;
     }
 
-    .secao8-container-bloco-direito-texto-item h1 {
+    .secao8-container-bloco-direito-texto-item-mobile h1 {
         font-size: 28px;
     }
     
-    .secao8-container-bloco-direito-texto-item h3 {
+    .secao8-container-bloco-direito-texto-item-mobile h3 {
         font-size: 20px;
     }
     
-    .secao8-container-bloco-direito-valor h3 {
+    .secao8-container-bloco-direito-valor-mobile h3 {
         font-size: 20px;
     }
     
-    .secao8-container-bloco-direito-valor-numero {
+    .secao8-container-bloco-direito-valor-numero-mobile {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -398,29 +403,29 @@
         margin-top: -25px;
     }
     
-    .secao8-container-bloco-direito-valor-numero-vermelho {
+    .secao8-container-bloco-direito-valor-numero-vermelho-mobile {
         display: flex;
         flex-direction: row;
         gap: 5px;
         align-items: end;
     }
     
-    .secao8-container-bloco-direito-valor-numero-vermelho h5{
+    .secao8-container-bloco-direito-valor-numero-vermelho-mobile h5{
         font-size: 20px;
         margin-bottom: 18px;
     }
     
-    .secao8-container-bloco-direito-valor-numero-vermelho h1 {
+    .secao8-container-bloco-direito-valor-numero-vermelho-mobile h1 {
         font-size: 60px;
         margin-top: 15px;
     }
     
-    .secao8-container-bloco-direito-valor-numero h4 {
+    .secao8-container-bloco-direito-valor-numero-mobile h4 {
         font-size: 16px;
         margin-top: -8px;
     }
     
-    .secao8-container-bloco-direito button {
+    .secao8-container-bloco-direito-mobile button {
         width: 250px;
         height: 80px;
         font-size: 28px;
