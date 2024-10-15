@@ -186,11 +186,13 @@
     .secao6-container-direito h1 {
         font-size: 38px;
         width: 90vw;
+        text-align: start;
     }
 
     .secao6-container-direito h2 {
         font-size: 24px;
         width: 90vw;
+        text-align: start;
     }
 
     .secao6-container-direito-bloco {
@@ -215,7 +217,7 @@
     .secao6-container-lista img {
         height: 180px;
     }
-    
+
     .secao6-container-lista-p p {
         font-size: 20px;
         width: 50vw;
@@ -269,7 +271,7 @@
 
     .secao6-container-direito-bloco h1 {
         font-size: 28px;
-        width: 75vw;
+        width: 70vw;
     }
 
     .secao6-container-lista {
@@ -284,7 +286,7 @@
     .secao6-container-lista-p p {
         font-size: 20px;
         width: 70vw;
-        text-align: center;
+        text-align: start;
     }
 
     .secao6-container-direito-bloco h2 {
