@@ -44,6 +44,10 @@
     z-index: 1; /* Maior z-index que o da logo */
 }
 
+.secao4-button {
+    z-index: 2;
+}
+
 .secao4-button button {
     width: 700px;
     height: 120px;
@@ -51,7 +55,6 @@
     border: none;
     border-radius: 15px;
     box-shadow: 5px 30px 80px #0000007c;
-
     font-size: 40px;
     font-weight: 500;
     color: #fff;
@@ -64,6 +67,11 @@
 @media (max-width: 1200px) {
     .secao4-triangulo-topo{
         display: none;
+    }
+
+    .secao4-texto h3 {
+        font-size: 32px;
+        width: 80vw;
     }
 }
 
@@ -97,6 +105,11 @@
         height: 120px;
         font-size: 30px;
     }
+
+    .secao4-texto h3 {
+        font-size: 28px;
+        width: 85vw;
+    }
 }
 
 @media (max-width: 800px) {
@@ -115,6 +128,11 @@
         font-size: 30px;
         font-size: 1.8rem;
     }
+
+    .secao4-texto h3 {
+        font-size: 24px;
+        width: 90vw;
+    }
 }
 
 @media (max-width: 700px) {
@@ -124,6 +142,11 @@
         top: 45%;
         z-index: 0;
         width: 40vw;
+    }
+
+    .secao4-texto h3 {
+        font-size: 20px;
+        width: 90vw;
     }
 }
 
@@ -142,15 +165,30 @@
         position: relative;
         z-index: 1;
     }
+
+    .secao4-texto h3 {
+        font-size: 18px;
+        width: 90vw;
+    }
 }
 
 @media (max-width: 450px) {
+    .secao4-livro img {
+        margin-top: -30px;
+    }
+
     .secao4-logo img {
         position: absolute;
         right: -7%;
         top: 60%;
         z-index: 0;
         width: 40vw;
+    }
+
+    .secao4-texto h3 {
+        font-size: 16px;
+        width: 90vw;
+        margin-bottom: 50px;
     }
 }
 
