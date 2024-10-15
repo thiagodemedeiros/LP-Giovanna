@@ -12,7 +12,7 @@
 .slide-track {
     display: flex;
     width: calc(829px * 10);
-    animation: scroll 60s linear infinite;
+    /* animation: scroll 60s linear infinite; */
 }
 
 .slide-track-2 {
@@ -74,5 +74,14 @@
         display: flex;
         align-items: center;
         padding: 35px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-500px * 5));
+        }
     }
 }
