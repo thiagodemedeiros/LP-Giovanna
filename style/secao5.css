@@ -3,7 +3,7 @@
     width: 100%;
     height: auto;
 
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -71,6 +71,10 @@
     color: #2B413B;      /* Cor específica */
     border-bottom: 2px solid #2B413B;  /* Barra embaixo do texto */
     padding-bottom: 1px;       /* Espaçamento para a barra */
+}
+
+.secao5-triangulo-topo img {
+    margin-top: -2px;
 }
 
 @media (max-width: 1200px) {
