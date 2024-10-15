@@ -1,12 +1,12 @@
 .secao2 {
     width: 100%;
-    height: 847px;
+    height: 1050px;
     
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    background-color: #CCCCCC;
+    background-color: #F4F4F4;
 
     position: relative;
     z-index: 2;
@@ -25,16 +25,17 @@
     margin-top: 30px;
 }
 
-.secao2-titulo {
+.secao2-texto-titulo {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+    text-align: start;
     margin-bottom: 50px;
 }
 
-.secao2-titulo h2 {
+.secao2-texto-titulo h2 {
     width: 600px;
-    text-align: center;
+    line-height: 38px;
 
     font-size: 30px;
     font-weight: 400;
@@ -43,9 +44,8 @@
     margin-bottom: -5px;
 }
 
-.secao2-titulo h3 {
+.secao2-texto-titulo h3 {
     width: 570px;
-    text-align: center;
 
     font-size: 35px;
     font-weight: 700;
@@ -56,16 +56,41 @@
 .secao2-item {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     gap: 150px;
 }
 
-.secao2-imagem-lado img {
-    width: 500px;
+.secao2-imagem-lado{
+    display: flex;
+    margin-bottom: -100px;
+    width: 600px;
+}
+
+.secao2-folha {
+    width: 600px;
     height: auto;
-    margin-bottom: -90px;
     z-index: 1;
-    position: relative;
+}
+
+.secao2-celular {
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    margin-top: -160px;
+    margin-left: 50px;
+    animation: subirDescer 10s infinite ease-in-out;
+}
+
+@keyframes subirDescer {
+    0%, 90% {
+        transform: translateY(0) scale(1) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) scale(1.1) rotate(0deg);
+    }
+    100% {
+        transform: translateY(0) scale(1) rotate(360deg);
+    }
 }
 
 .secao2-texto {
@@ -78,7 +103,7 @@
 }
 
 .secao2-texto p{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
 }
@@ -86,11 +111,19 @@
 @media (max-width: 1200px) {
     .secao2 {
         padding-top: 30px;
-        height: 1267px;
+        height: 1450px;
     }
 
     .secao2-titulo {
         margin-bottom: 10px;
+    }
+
+    .secao2-texto-titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0px;
     }
 
     .secao2-item {
@@ -108,17 +141,27 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 15px;
+        gap: 20px;
     }
 
-    .secao2-imagem-lado img {
-        margin-bottom: -35px;
+    .secao2-imagem-lado {
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+
+    .secao2-folha {
+        width: 500px;
+    }
+    
+    .secao2-celular {
+        width: 300px;
+        margin-top: -110px;
     }
 }
 
 @media (max-width: 670px) {
     .secao2 {
-        height: 990px;
+        height: 1280px;
     }
 
     .secao2-conteudo {
@@ -129,29 +172,36 @@
         margin-top: -10px;
     }
 
-    .secao2-titulo h2 {
-        width: 300px;
-        font-size: 16px;
+    .secao2-texto-titulo h2 {
+        width: 340px;
+        font-size: 24px;
         margin-bottom: -2px;
+        line-height: 32px;
     }
     
-    .secao2-titulo h3 {
-        width: 300px;
-        font-size: 20px;
-    }
-
-    .secao2-texto {
-        width: 300px;
-        gap: 15px;
+    .secao2-texto-titulo h3 {
+        width: 340px;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .secao2-texto p{
-        font-size: 14px;
+        font-size: 18px;
+        width: 300px;
     }
 
-    .secao2-imagem-lado img {
-        width: 300px;
-        height: auto;
-        margin-bottom: -85px;
+    .secao2-imagem-lado {
+        margin-top: 10px;
+        margin-left: 270px;
+    }
+
+    .secao2-folha {
+        width: 400px;
+    }
+    
+    .secao2-celular {
+        width: 200px;
+        margin-top: -10px;
+        margin-left: 60px;
     }
 }
