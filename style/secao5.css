@@ -1,0 +1,144 @@
+.secao5 {
+    background-color: #DF846C;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao5-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+
+    margin: 50px 0px 60px 0px;
+}
+
+.secao5-container h1 {
+    font-family: "Magic Bright", serif;
+    font-size: 60px;
+    font-weight: 700;
+    width: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+.secao5-container-lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.secao5-container-lista img {
+    height: 700px;
+}
+
+.secao5-container-lista-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.secao5-container-lista-texto p {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    width: 490px;
+    text-align: start;
+    color: #fff;
+}
+
+.secao5-container h3 {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    width: 400px;
+    text-align: center;
+}
+
+.destaque {
+    font-weight: bold;   /* Negrito */
+    font-style: italic;  /* Itálico */
+    color: #2B413B;      /* Cor específica */
+    border-bottom: 2px solid #2B413B;  /* Barra embaixo do texto */
+    padding-bottom: 1px;       /* Espaçamento para a barra */
+}
+
+@media (max-width: 1200px) {
+    .secao5-triangulo-topo{
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .secao5 {
+        padding: 0;
+    }
+
+    .secao5-container {
+        gap: 40px;
+        margin:  10px 0px 30px 0px;
+    }
+
+    .secao5-container h1 {
+        font-size: 40px;
+        width: 400px;
+    }
+
+    .secao5-container-lista-texto p {
+        font-size: 20px;
+        width: 360px;
+    }
+
+    .secao5-container-lista img {
+        height: 500px;
+    }
+
+    .secao5-container h3 {
+        font-size: 25px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .secao5 {
+        padding: 0px;
+    }
+
+    .secao5-container {
+        gap: 30px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .secao5-container h1 {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .secao5-container-lista {
+        gap: 15px;
+    }
+
+    .secao5-container-lista-texto p {
+        font-size: 16px;
+        width: 280px;
+    }
+
+    .secao5-container-lista img {
+        height: 420px;
+    }
+
+    .secao5-container h3 {
+        font-size: 20px;
+        width: 250px;
+    }
+}

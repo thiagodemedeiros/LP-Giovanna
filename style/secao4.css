@@ -57,6 +57,12 @@
     color: #fff;
 }
 
+@media (max-width: 1200px) {
+    .secao4-triangulo-topo{
+        display: none;
+    }
+}
+
 @media (max-width: 1150px) {
     .secao4-logo img {
         position: absolute;
