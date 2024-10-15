@@ -1,0 +1,319 @@
+.secao10 {
+    width: 100%;
+    height: 1370px;
+    padding: 60px 0px 10px 0px;
+    background-color: #86A5A8;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao10-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.secao10-container-esquerdo {
+    height: 1150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secao10-container-esquerdo-bloco1 {
+    height: 750px;
+    width: 490px;
+    background-color: #F0E4D8;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+}
+
+.secao10-container-esquerdo-bloco1 img {
+    width: 520px;
+    margin-top: -85px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.secao10-container-esquerdo-bloco2 {
+    height: 330px;
+    width: 490px;
+    background-color: #F0E4D8;
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao10-container-esquerdo-bloco2-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.secao10-container-esquerdo-bloco2-item h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #2A413B;
+}
+
+.secao10-container-esquerdo-bloco2-item h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    width: 400px;
+}
+
+.secao10-container-esquerdo-bloco2-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+
+.secao10-container-esquerdo-bloco2-lista img {
+    width: 20px;
+    height: 20px;
+}
+
+.secao10-container-esquerdo-bloco2-lista li {
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.secao10-container-direito {
+    height: 1150px;
+    width: 700px;
+    background-color: #F0E4D8;
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao10-container-direito-bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.secao10-container-direito-bloco h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #2A413B;
+}
+
+.secao10-container-direito-bloco p {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    width: 500px;
+}
+
+@media (max-width: 1300px) {
+    .secao10 {
+        width: 100%;
+        height: auto;
+        padding: 130px 0px 50px 0px;
+    }
+
+    .secao10-container-esquerdo {
+        height: auto;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .secao10-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .secao10-container-direito {
+        height: auto;
+        padding: 30px 0px 40px 0px;
+        width: 1030px;
+        background-color: #F0E4D8;
+        border-radius: 50px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .secao10-container-direito-bloco p {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: #000000;
+        width: 900px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .secao10-container-esquerdo {
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .secao10-container-direito {
+        height: auto;
+        padding: 30px 20px 40px 20px;
+        width: 490px;
+        background-color: #F0E4D8;
+        border-radius: 50px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secao10-container-direito-bloco {
+        width: 490px;
+        align-items: center;
+    }
+
+    .secao10-container-direito-bloco p {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: #000000;
+        width: 450px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .secao10-container-esquerdo-bloco1 {
+        height: 460px;
+        width: 300px;
+        background-color: #F0E4D8;
+        border-radius: 50px;
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .secao10-container-esquerdo-bloco1 img {
+        width: 320px;
+        margin-top: -53px;
+        border-radius: 0px 0px 75px 50px;
+    }
+
+    .secao10-container-esquerdo-bloco2 {
+        height: 420px;
+        width: 300px;
+        border-radius: 30px;
+    }
+
+    .secao10-container-esquerdo-bloco2-item {
+        margin-right: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .secao10-container-esquerdo-bloco2-item h1 {
+        font-size: 24px;
+    }
+    
+    .secao10-container-esquerdo-bloco2-item h3 {
+        font-size: 18px;
+        width: 280px;
+    }
+    
+    .secao10-container-esquerdo-bloco2-lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 15px;
+    }
+    
+    .secao10-container-esquerdo-bloco2-lista img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .secao10-container-esquerdo-bloco2-lista li {
+        list-style: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000000;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .secao10-container-direito {
+        height: auto;
+        padding: 15px 0px 20px 0px;
+        width: 300px;
+        border-radius: 30px;
+    }
+    
+    .secao10-container-direito-bloco{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .secao10-container-direito-bloco h1 {
+        font-size: 24px;
+    }
+    
+    .secao10-container-direito-bloco p {
+        font-size: 16px;
+        color: #000000;
+        width: 230px;
+    }
+}
