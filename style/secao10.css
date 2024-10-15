@@ -251,9 +251,8 @@
     }
 
     .secao10-container-esquerdo-bloco2-item {
-        margin-right: 20px;
-        align-items: center;
-        text-align: center;
+        margin-right: -0px;
+        align-items: start;
     }
 
     .secao10-container-esquerdo-bloco2-item h1 {
@@ -268,7 +267,7 @@
     .secao10-container-esquerdo-bloco2-lista {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: start;
         gap: 15px;
     }
@@ -288,7 +287,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         gap: 5px;
     }
 
