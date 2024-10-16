@@ -116,7 +116,7 @@
     text-align: center;
 }
 
-.secao6-container-direito-bloco button {
+.secao6-container-direito-bloco  button {
     width: 550px;
     height: 75px;
     border-radius: 15px;
@@ -132,6 +132,11 @@
     color: #2D433D;
     text-align: center;
     box-shadow: 5px 30px 50px #00000077;
+
+    a {
+        color: #2D433D;
+        text-decoration: none;
+    }
 }
 
 .secao6-triangulo-topo{

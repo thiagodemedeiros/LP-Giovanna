@@ -18,6 +18,10 @@ html, body {
     padding: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 @media (max-width: 1200px) {
     .secao2-triangulo-topo {
         display: none;
