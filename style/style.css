@@ -22,6 +22,10 @@ button {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media (max-width: 1200px) {
     .secao2-triangulo-topo {
         display: none;
