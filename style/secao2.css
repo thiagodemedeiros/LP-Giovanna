@@ -82,14 +82,11 @@
 }
 
 @keyframes subirDescer {
-    0%, 90% {
-        transform: translateY(0) scale(1) rotate(0deg);
+    0%, 100% {
+        transform: translateY(0) scale(1);
     }
     50% {
-        transform: translateY(-20px) scale(1.1) rotate(0deg);
-    }
-    100% {
-        transform: translateY(0) scale(1) rotate(360deg);
+        transform: translateY(-20px) scale(1.1);
     }
 }
 
