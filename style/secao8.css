@@ -418,4 +418,8 @@
         height: 80px;
         font-size: 28px;
     }
+
+    .secao6-container-direito-bloco h2 {
+        margin-bottom: 20px;
+    }
 }
