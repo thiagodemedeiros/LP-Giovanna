@@ -160,7 +160,7 @@
 
 @media (max-width: 670px) {
     .secao2 {
-        height: 1190px;
+        height: 1000px;
         position: relative;
         z-index: 1;
     }
@@ -171,38 +171,63 @@
 
     .secao2-item {
         margin-top: -10px;
+        flex-direction: column-reverse;
     }
 
-    .secao2-texto-titulo h2 {
+    .secao2-texto {
+        margin-top: 60px;
+        text-align: left;
+    }
+
+    .secao2-texto-titulo {
+        display: none;
+    }
+
+    .secao2-texto-titulo-mobile {
+        display: flex;
+        text-align: left;
+        width: 300px;
+        /* border: #B77855 solid; */
+    }
+
+    .secao2-texto-titulo-mobile span {
+        font-family: "Poppins", sans-serif;
         width: 300px;
         font-size: 20px;
-        margin-bottom: -2px;
-        line-height: 25px;
+        font-weight: 700;
+        color: #B77855;
+        letter-spacing: -0.7px;
     }
     
-    .secao2-texto-titulo h3 {
-        width: 340px;
+    .secao2-texto-titulo-mobile h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        width: 300px;
         font-size: 20px;
-        line-height: 32px;
+        line-height: 24px;
+        letter-spacing: -0.5px;
     }
 
     .secao2-texto p{
         font-size: 16px;
+        font-weight: 400;
         width: 300px;
+        line-height: 20px;
+        letter-spacing: -0.4px;
     }
 
     .secao2-imagem-lado {
-        margin-top: 10px;
-        margin-left: 270px;
+        margin-top: 20px;
+        margin-left: 300px;
     }
 
     .secao2-folha {
-        width: 400px;
+        width: 300px;
     }
     
     .secao2-celular {
-        width: 200px;
+        width: 160px;
         margin-top: -10px;
-        margin-left: 60px;
+        margin-left: 40px;
     }
 }
