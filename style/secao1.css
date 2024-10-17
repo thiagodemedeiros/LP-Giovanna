@@ -126,14 +126,16 @@
 
 @media (max-width: 670px) {
     .secao1 {
-        height: 610px;
+        height: 700px;
         gap: 10px;
     }
 
     .secao1-imagem-lado img{
         /* width: 50vw; */
         width: 300px;
-        margin-top: 30px;
+        margin-top: 80px;
+        position: relative;
+        z-index: 2;
     }
 
     .secao1-texto {
