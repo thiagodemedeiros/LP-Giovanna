@@ -115,7 +115,7 @@
 
 @media (max-width: 480px) {
     .secao5 {
-        padding: 0px;
+        padding: 0px 0px 5px 0px;
     }
 
     .secao5-container {
@@ -124,8 +124,9 @@
     }
 
     .secao5-container h1 {
-        font-size: 30px;
-        width: 300px;
+        font-size: 22px;
+        width: 240px;
+        margin-top: 10px;
     }
 
     .secao5-container-lista {
@@ -133,16 +134,16 @@
     }
 
     .secao5-container-lista-texto p {
-        font-size: 16px;
+        font-size: 14px;
         width: 280px;
     }
 
     .secao5-container-lista img {
-        height: 420px;
+        height: 340px;
     }
 
     .secao5-container h3 {
-        font-size: 20px;
+        font-size: 22px;
         width: 250px;
     }
 }

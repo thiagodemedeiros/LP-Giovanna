@@ -240,6 +240,11 @@
 }
 
 @media (max-width: 750px) {
+    .secao6 {
+        height: 1370px;
+        justify-content: center;
+    }
+
     .secao6-container {
         flex-direction: column-reverse;
         margin-top: 30px;
@@ -255,13 +260,14 @@
     }
 
     .secao6-container-direito h1 {
-        font-size: 38px;
-        width: 90vw;
+        font-size: 22px;
+        width: 80vw;
+        margin-top: -20px;
     }
 
     .secao6-container-direito h2 {
-        font-size: 24px;
-        width: 90vw;
+        font-size: 18px;
+        width: 80vw;
     }
 
     .secao6-container-direito-bloco {
@@ -275,8 +281,9 @@
     }
 
     .secao6-container-direito-bloco h1 {
-        font-size: 28px;
+        font-size: 18px;
         width: 70vw;
+        margin-top: 20px;
     }
 
     .secao6-container-lista {
@@ -289,13 +296,13 @@
     }
     
     .secao6-container-lista-p p {
-        font-size: 20px;
+        font-size: 16px;
         width: 70vw;
         text-align: start;
     }
 
     .secao6-container-direito-bloco h2 {
-        font-size: 22px;
+        font-size: 18px;
         width: 70vw;
     }
     
