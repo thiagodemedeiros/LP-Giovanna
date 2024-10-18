@@ -19,7 +19,7 @@
     margin-top: 90px;
 
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 .secao1-texto {
@@ -31,15 +31,15 @@
 }
 
 .secao1-texto button{
-    width: 300px;
-    height: 80px;
+    width: 350px;
+    height: 90px;
     background-color: #B85147;
     border: none;
     border-radius: 15px;
 
     color: #fff;
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .secao1-texto-h {
@@ -56,22 +56,22 @@
 
 .secao1-texto-h h1 {
     font-family: "Magic Bright", serif;
-    font-size: 60px;
-    font-weight: 500;
-    width: 270px;
+    font-size: 37px;
+    font-weight: 700;
+    width: 440px;
     color: #B85147;
 }
 
 .secao1-texto-h h2 {
     font-family: "Magic Bright", serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 500;
-    width: 250px;
+    width: 440px;
 }
 
 @media (max-width: 1150px) {
     .secao1 {
-        height: 1285px;
+        height: 1700px;
         
         flex-direction: column-reverse;
         align-items: center;

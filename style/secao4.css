@@ -152,7 +152,7 @@
 
 @media (max-width: 600px) {
     .secao4 {
-        height: 610px;
+        height: 570px;
         margin-top: -40px;
         padding-bottom: 10px;
     }
@@ -175,6 +175,13 @@
     .secao4-texto h3 {
         font-size: 18px;
         width: 90vw;
+    }
+
+    .secao4-button button {
+        width: 70vw;
+        height: auto;
+        padding: 10px 20px;
+        font-size: 20px;
     }
 }
 
