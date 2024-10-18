@@ -108,17 +108,17 @@
 
     .secao4-texto h3 {
         font-size: 28px;
-        width: 85vw;
+        font-weight: 600;
+        width: 80vw;
+        text-align: left;
+        line-height: 22px;
+        letter-spacing: -0.2px;
     }
 }
 
 @media (max-width: 800px) {
     .secao4-logo img {
-        position: absolute;
-        right: -7%;
-        top: 40%;
-        z-index: 0;
-        width: 40vw;
+        display: none;
     }
 
     .secao4-button button {
@@ -151,6 +151,12 @@
 }
 
 @media (max-width: 600px) {
+    .secao4 {
+        height: 610px;
+        margin-top: -40px;
+        padding-bottom: 10px;
+    }
+
     .secao4-logo img {
         position: absolute;
         right: -7%;
@@ -160,7 +166,7 @@
     }
 
     .secao4-livro img {
-        width: 100vw;
+        width: 112vw;
         margin-left: 1.3%;
         position: relative;
         z-index: 1;
