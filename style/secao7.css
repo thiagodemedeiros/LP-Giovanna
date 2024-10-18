@@ -60,6 +60,10 @@
 }
 
 @media (max-width: 500px) {
+    .secao7 {
+        margin-top: 100px;
+    }
+
     .secao7-texto {
         gap: 20px;
         margin-top: 15px;
