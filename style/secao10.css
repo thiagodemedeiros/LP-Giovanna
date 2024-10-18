@@ -239,47 +239,63 @@
 }
 
 @media (max-width: 560px) {
+    .secao10 {
+        height: 1280px;
+        padding-top: 290px;
+        
+    }
+    .secao10-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+        height: 0px;
+    }
+
     .secao10-container-esquerdo-bloco1 {
         height: 460px;
         width: 300px;
         background-color: #F0E4D8;
         border-radius: 50px;
     
-        display: flex;
+        display: none;
         align-items: center;
     }
 
     .secao10-container-direito img {
         display: flex;
-        width: 237px;
-        border-radius: 30px;
-        margin: 10px 0px 20px 0px;
+        width: 180px;
+        border-radius: 20px;
+        margin: -300px 60px 10px 0px;
     }
     
     .secao10-container-esquerdo-bloco1 img {
         width: 320px;
         margin-top: -53px;
         border-radius: 0px 0px 75px 50px;
+        display: none;
     }
 
     .secao10-container-esquerdo-bloco2 {
-        height: 420px;
-        width: 300px;
-        border-radius: 30px;
+        height: 330px;
+        width: 260px;
+        border-radius: 20px;
+        margin-top: -20px;
     }
 
     .secao10-container-esquerdo-bloco2-item {
         margin-right: -0px;
-        align-items: start;
+        align-items: flex-start;
+        gap: 5px;
     }
 
     .secao10-container-esquerdo-bloco2-item h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .secao10-container-esquerdo-bloco2-item h3 {
-        font-size: 18px;
-        width: 280px;
+        font-size: 14px;
+        width: 240px;
     }
     
     .secao10-container-esquerdo-bloco2-lista {
@@ -287,18 +303,19 @@
         flex-direction: column;
         align-items: start;
         justify-content: start;
+        margin-top: 10px;
         gap: 15px;
     }
     
     .secao10-container-esquerdo-bloco2-lista img {
-        width: 20px;
+        width: auto;
         height: 20px;
     }
     
     .secao10-container-esquerdo-bloco2-lista li {
         list-style: none;
         font-family: "Poppins", sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         color: #000000;
     
@@ -310,8 +327,8 @@
     }
 
     .secao10-container-direito {
-        height: auto;
-        padding: 15px 0px 20px 0px;
+        height: 660px;
+        padding: 60px 0px 0px 0px;
         width: 300px;
         border-radius: 30px;
     }
@@ -320,16 +337,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
-        gap: 15px;
+        text-align: left;
+        height: 590px;
+        gap: 10px;
     }
     
     .secao10-container-direito-bloco h1 {
-        font-size: 24px;
+        font-size: 20px;
+        margin-left: -120px;
+        
     }
     
     .secao10-container-direito-bloco p {
-        font-size: 16px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.2px;
         color: #000000;
         width: 230px;
     }
