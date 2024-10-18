@@ -337,10 +337,13 @@
 }
 
 @media (max-width: 550px) {
+    
+
     .secao8-container-bloco {
         width: 300px;
         height: 290px;
         margin-bottom: 40px;
+        border-radius: 0px;
     }
 
     .secao8-container-bloco-img {
@@ -348,11 +351,12 @@
         align-items: center;
         justify-content: center;
         background-color: #F0E4D8;
-        border-radius: 50px 50px 15px 50px;
+        border-radius: 0px 0px 15px 50px;
 
-        width: 260px;
+        width: 300px;
         height: 330px;
         margin-bottom: 30px;
+        margin-top: -60px;
     }
 
     .secao8-container-bloco-img img {
@@ -378,51 +382,70 @@
     }
 
     .secao8-container-bloco-esquerdo {
-        width: 300px;
-        height: 390px;
-        padding-bottom: 10px;
-        gap: 20px;
+        width: 260px;
+        height: 260px;
+        padding-top: 5px;
+        gap: 15px;
         border-radius: 25px;
         margin-bottom: 30px;
+        margin-top: -80px;
     }
     
     .secao8-container-bloco-esquerdo h1 {
-        width: 300px;
-        font-size: 28px;
+        width: 240px;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 1px;
+    }
+
+    .secao8-container-bloco-esquerdo-limitadas {
+        font-style: italic;
+        color: #B77855;
     }
     
     .secao8-container-bloco-esquerdo h3 {
-        width: 240px;
-        font-size: 20px;
+        width: 180px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.2px;
     }
     
     .secao8-container-bloco-esquerdo p {
         font-weight: 300;
-        font-size: 18px;
-        width: 240px;
+        font-size: 14px;
+        width: 200px;
+        line-height: 18px;
     }
 
     .secao8-container-bloco-direito {
         width: 300px;
-        height: 740px;
+        height: 610px;
         padding-bottom: 10px;
         border-radius: 25px;
     }
 
     .secao8-container-bloco-direito-texto-item {
-        width: 280px;
+        gap: 0px;
+        align-items: center;
+    }
+
+    .secao8-container-bloco-direito-texto-item {
+        width: 220px;
     }
 
     .secao8-container-bloco-direito-texto-item h1 {
-        font-size: 28px;
+        font-size: 22px;
     }
     
     .secao8-container-bloco-direito-texto-item h3 {
-        font-size: 20px;
+        font-size: 16px;
+        width: 200px;
+        line-height: 18px;
+        letter-spacing: -0.2px;
     }
     
     .secao8-container-bloco-direito-valor h3 {
-        font-size: 20px;
+        font-size: 16px;
     }
     
     .secao8-container-bloco-direito-valor-numero {
