@@ -126,7 +126,7 @@
 
 @media (max-width: 670px) {
     .secao1 {
-        height: 700px;
+        height: 818px;
         gap: 10px;
     }
 
@@ -152,17 +152,22 @@
     .secao1-texto-h h1 {
         font-size: 32px;
         font-weight: 600;
-        width: 300px;
+        width: 280px;
+        line-height: 30px;
+        letter-spacing: -0.2px;
+        margin-bottom: 5px;
     }
     
     .secao1-texto-h h2 {
         font-size: 20px;
         font-weight: 400;
-        width: 300px;
+        width: 260px;
+        line-height: 22px;
+        letter-spacing: -0.2px;
     }
 
     .secao1-texto button{
-        width: 130px;
+        width: 210px;
         height: 40px;
         background-color: #B85147;
         border: none;
