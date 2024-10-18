@@ -277,7 +277,7 @@
     }
 
     .secao10-container-esquerdo-bloco2 {
-        height: 330px;
+        height: 350px;
         width: 260px;
         border-radius: 20px;
         margin-top: -20px;
@@ -295,7 +295,9 @@
     
     .secao10-container-esquerdo-bloco2-item h3 {
         font-size: 14px;
-        width: 240px;
+        width: 180px;
+        line-height: 18px;
+        letter-spacing: -0.2px;
     }
     
     .secao10-container-esquerdo-bloco2-lista {
