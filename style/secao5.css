@@ -91,11 +91,17 @@
     .secao5-container {
         gap: 40px;
         margin:  10px 0px 30px 0px;
+        /* align-items: self-start; */
     }
 
     .secao5-container h1 {
-        font-size: 40px;
-        width: 400px;
+        font-size: 30px;
+        font-weight: 700;
+        width: 85vw;
+        margin-top: 10px;
+        color: #2B413B; 
+        text-align: left;
+        align-self: self-start;
     }
 
     .secao5-container-lista-texto p {
@@ -124,9 +130,11 @@
     }
 
     .secao5-container h1 {
-        font-size: 22px;
-        width: 240px;
+        font-size: 30px;
+        font-weight: 700;
+        width: 85vw;
         margin-top: 10px;
+        color: #2B413B; 
     }
 
     .secao5-container-lista {
@@ -135,15 +143,18 @@
 
     .secao5-container-lista-texto p {
         font-size: 14px;
-        width: 280px;
+        width: 240px;
+        line-height: 18px;
+        letter-spacing: -0.2px;
     }
 
     .secao5-container-lista img {
-        height: 340px;
+        height: 310px;
     }
 
     .secao5-container h3 {
-        font-size: 22px;
+        font-size: 20px;
         width: 250px;
+        line-height: 25px;
     }
 }
