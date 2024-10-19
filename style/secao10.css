@@ -262,12 +262,7 @@
         align-items: center;
     }
 
-    .secao10-container-direito img {
-        display: flex;
-        width: 180px;
-        border-radius: 20px;
-        margin: -280px 60px 10px 0px;
-    }
+    
     
     .secao10-container-esquerdo-bloco1 img {
         width: 320px;
@@ -333,6 +328,15 @@
         padding: 60px 0px 0px 0px;
         width: 300px;
         border-radius: 30px;
+        margin-top: -110px;
+    }
+
+    .secao10-container-direito img {
+        display: flex;
+        height: 180px;
+        width: auto;
+        border-radius: 20px;
+        margin: -190px 120px 10px 0px;
     }
     
     .secao10-container-direito-bloco{
@@ -340,7 +344,7 @@
         flex-direction: column;
         align-items: center;
         text-align: left;
-        height: 590px;
+        height: 620px;
         gap: 10px;
     }
     
