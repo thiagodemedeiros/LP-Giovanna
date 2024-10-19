@@ -328,15 +328,15 @@
         padding: 60px 0px 0px 0px;
         width: 300px;
         border-radius: 30px;
-        margin-top: -110px;
+        margin-top: -60px;
     }
 
     .secao10-container-direito img {
         display: flex;
-        height: 180px;
+        height: 240px;
         width: auto;
         border-radius: 20px;
-        margin: -190px 120px 10px 0px;
+        margin: -245px 120px 10px 0px;
     }
     
     .secao10-container-direito-bloco{
