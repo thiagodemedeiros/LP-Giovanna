@@ -11,6 +11,10 @@
     background-color: #F0E4D8;
 }
 
+.secao1-mobile {
+    display: none;
+}
+
 .secao1-imagem-lado img{
     /* width: 50vw; */
     width: 600px;
