@@ -141,7 +141,7 @@
         align-items: center;
         justify-content: center;
         background-color: #F0E4D8;
-        border: #B85147 solid;
+        /* border: #B85147 solid; */
     }
 
     .secao1-mobile-container {
