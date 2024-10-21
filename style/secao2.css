@@ -208,8 +208,8 @@
 @media (max-width: 670px) {
     .secao2 {
         height: 1160px;
-        position: relative;
-        z-index: 1;
+        /* position: relative;
+        z-index: 1; */
     }
 
     .secao2-button {
