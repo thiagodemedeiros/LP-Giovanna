@@ -126,52 +126,70 @@
 
 @media (max-width: 670px) {
     .secao1 {
-        height: 900px;
-        gap: 10px;
+        display: none;
     }
 
-    .secao1-imagem-lado img{
-        /* width: 50vw; */
-        width: 300px;
-        margin-top: 80px;
-        position: relative;
-        z-index: 2;
+    .secao1-mobile {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0px;
+        background-color: #F0E4D8;
     }
 
-    .secao1-texto {
-        gap: 20px;
-    }    
-
-    .secao1-texto img {
-        width: 200px;
-        height: auto;
-        margin-top: 35px;
-        margin-bottom: -10px;
+    .secao1-imagem-lado-mobile img{
+        width: 60vw;
+        min-width: 300px;
     }
 
-    .secao1-texto-h h1 {
+    .secao1-texto-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .secao1-texto-mobile img{
+        width: 30vw;
+    }
+
+    .secao1-texto-h-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .secao1-texto-h-mobile h1 {
         font-size: 32px;
         font-weight: 600;
-        width: 280px;
         line-height: 30px;
+        width: 300px;
         letter-spacing: -0.2px;
-        margin-bottom: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: "Magic Bright", serif;
+        color: #B85147;
     }
     
-    .secao1-texto-h h2 {
+    .secao1-texto-h-mobile h2 {
         font-size: 20px;
         font-weight: 400;
-        width: 260px;
         line-height: 22px;
+        width: 300px;
         letter-spacing: -0.2px;
+        font-family: "Magic Bright", serif;
     }
 
-    .secao1-texto button{
+    .secao1-texto-mobile button{
         width: 210px;
         height: 40px;
         background-color: #B85147;
         border: none;
         border-radius: 10px;
+        margin-top: 20px;
     
         color: #fff;
         font-size: 16px;
