@@ -134,17 +134,28 @@
     }
 
     .secao1-mobile {
+        max-height: 890px;
         height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 20px 0px;
         background-color: #F0E4D8;
+        border: #B85147 solid;
+    }
+
+    .secao1-mobile-container {
+        max-height: 800px;
+        height: 90vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .secao1-imagem-lado-mobile img{
-        width: 60vw;
+        width: 50vw;
         min-width: 300px;
     }
 
@@ -152,11 +163,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
         margin-top: 20px;
+        height: 50vh;
+        padding: 10px 0px;
     }
 
     .secao1-texto-mobile img{
-        width: 30vw;
+        width: 200px;
     }
 
     .secao1-texto-h-mobile {
