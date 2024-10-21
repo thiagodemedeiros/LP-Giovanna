@@ -134,7 +134,7 @@
     }
 
     .secao1-mobile {
-        max-height: 890px;
+        max-height: 990px;
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -142,7 +142,6 @@
         justify-content: center;
         background-color: #F0E4D8;
         /* border: #B85147 solid; */
-        margin-bottom: 100px;
     }
 
     .secao1-mobile-container {
